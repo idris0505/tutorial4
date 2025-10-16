@@ -14,6 +14,6 @@ public class CalcTest {
     @Test
     void testSubtraction() {
         Calc c = new Calc();
-        assertEquals(2, c.subtract(4, 2)); // 会失败，因为 Calc 类里还没有 subtract 方法
+        assertEquals(2, c.subtract(4, 2));
     }
 }
